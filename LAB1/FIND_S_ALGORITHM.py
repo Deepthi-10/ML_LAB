@@ -1,6 +1,6 @@
 import csv 
 a=[]
-with open('/kaggle')
+with open('/kaggle/input/lab1-ml/dataset_lab1.csv','r') as csvfile:
 as csvfile:
 for row in csv.reader(csvfile):
     a.append(row)
